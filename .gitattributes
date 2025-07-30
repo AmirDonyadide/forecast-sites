@@ -1,19 +1,27 @@
 # © 2024 Fraunhofer-Gesellschaft e.V., München
-#
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
-# Use LF line ending when downloading files with git
-# Also see
-# https://docs.github.com/en/get-started/getting-started-with-git/configuring-git-to-handle-line-endings
+# ---------------------------------------------------------------
+# Normalize all text files to use LF (Unix-style) line endings
+# regardless of the operating system used to check them out.
+# Ensures consistent diffs and prevents CRLF vs LF conflicts.
+# ---------------------------------------------------------------
 * text eol=lf
 
-# Denote all files that are truly binary and should not be modified:
+# ---------------------------------------------------------------
+# Mark binary file types so Git doesn't try to diff, merge, or
+# convert line endings for them. This prevents corruption.
+# ---------------------------------------------------------------
+
+# Image files
 *.png binary
 *.jpg binary
 *.ico binary
 
+# SQLite database files
 *.sqlite binary
 
+# Microsoft Office documents
 *.xls binary
 *.xlsx binary
 *.pptx binary
