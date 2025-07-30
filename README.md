@@ -71,6 +71,8 @@ The installation of the model follows typical Git and Python based schemes.
    `cd forecast-sites`
 3. Install the required python packages:
    `pip install .[dev]`
+   changes to:
+   `pip install '.[dev]'`
 4. Install the required nodejs packages:
 
    ```
