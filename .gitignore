@@ -38,3 +38,13 @@ coverage           # Folder containing coverage results
 /data.json         # Example or generated data file (ignored by convention)
 /web/eslint.json   # ESLint config or output for frontend code
 output             # Output directory — used for generated results, logs, etc.
+
+
+.DS_Store         # macOS Finder metadata files
+Thumbs.db         # Windows thumbnail cache files
+*.bak             # Backup files
+*.swp             # Vim swap files
+*.tmp             # Temporary files
+*.log             # Log files
+*.pid             # Process ID files
+*.pid.lock        # Lock files for processes
