@@ -1,0 +1,2154 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="41" failures="40" skipped="0" tests="173" time="8.136" timestamp="2025-07-30T19:04:26.945448+02:00" hostname="Amirhosseins-MacBook-Pro.local"><testcase classname="test.energy_carrier.test_energy_carrier" name="test_cost_in_euro_per_gj" time="0.000"><error message="failed on setup with &quot;TypeError: EnergyCarrier.__init__() takes 4 positional arguments but 15 were given&quot;">@pytest.fixture
+    def sut():
+        id_energy_carrier = 0
+        name = 'dummy'
+        cost_2015_in_euro_per_gj = 2
+        cost_2030_in_euro_per_gj = 5
+        cost_2050_in_euro_per_gj = 20
+        emission_2015_in_ton_per_gj = 5
+        emission_2050_in_ton_per_gj = 50
+        availability_2015_in_gj = 7
+        availability_2050_in_gj = 70
+        subsidies_2015_in_euro_per_gj = 9
+        subsidies_2030_in_euro_per_gj = 39
+        subsidies_2050_in_euro_per_gj = 90
+        taxes_2015_in_euro_per_gj = 11
+        taxes_2050_in_euro_per_gj = 110
+    
+&gt;       energy_carrier = EnergyCarrier(
+            id_energy_carrier,
+            name,
+            cost_2015_in_euro_per_gj,
+            cost_2030_in_euro_per_gj,
+            cost_2050_in_euro_per_gj,
+            emission_2015_in_ton_per_gj,
+            emission_2050_in_ton_per_gj,
+            availability_2015_in_gj,
+            availability_2050_in_gj,
+            subsidies_2015_in_euro_per_gj,
+            subsidies_2030_in_euro_per_gj,
+            subsidies_2050_in_euro_per_gj,
+            taxes_2015_in_euro_per_gj,
+            taxes_2050_in_euro_per_gj,
+        )
+E       TypeError: EnergyCarrier.__init__() takes 4 positional arguments but 15 were given
+
+test/energy_carrier/test_energy_carrier.py:27: TypeError</error></testcase><testcase classname="test.energy_carrier.test_energy_carrier" name="test_emission_in_ton_per_gj" time="0.000"><error message="failed on setup with &quot;TypeError: EnergyCarrier.__init__() takes 4 positional arguments but 15 were given&quot;">@pytest.fixture
+    def sut():
+        id_energy_carrier = 0
+        name = 'dummy'
+        cost_2015_in_euro_per_gj = 2
+        cost_2030_in_euro_per_gj = 5
+        cost_2050_in_euro_per_gj = 20
+        emission_2015_in_ton_per_gj = 5
+        emission_2050_in_ton_per_gj = 50
+        availability_2015_in_gj = 7
+        availability_2050_in_gj = 70
+        subsidies_2015_in_euro_per_gj = 9
+        subsidies_2030_in_euro_per_gj = 39
+        subsidies_2050_in_euro_per_gj = 90
+        taxes_2015_in_euro_per_gj = 11
+        taxes_2050_in_euro_per_gj = 110
+    
+&gt;       energy_carrier = EnergyCarrier(
+            id_energy_carrier,
+            name,
+            cost_2015_in_euro_per_gj,
+            cost_2030_in_euro_per_gj,
+            cost_2050_in_euro_per_gj,
+            emission_2015_in_ton_per_gj,
+            emission_2050_in_ton_per_gj,
+            availability_2015_in_gj,
+            availability_2050_in_gj,
+            subsidies_2015_in_euro_per_gj,
+            subsidies_2030_in_euro_per_gj,
+            subsidies_2050_in_euro_per_gj,
+            taxes_2015_in_euro_per_gj,
+            taxes_2050_in_euro_per_gj,
+        )
+E       TypeError: EnergyCarrier.__init__() takes 4 positional arguments but 15 were given
+
+test/energy_carrier/test_energy_carrier.py:27: TypeError</error></testcase><testcase classname="test.energy_carrier.test_energy_carrier" name="test_availability_in_gj" time="0.000"><error message="failed on setup with &quot;TypeError: EnergyCarrier.__init__() takes 4 positional arguments but 15 were given&quot;">@pytest.fixture
+    def sut():
+        id_energy_carrier = 0
+        name = 'dummy'
+        cost_2015_in_euro_per_gj = 2
+        cost_2030_in_euro_per_gj = 5
+        cost_2050_in_euro_per_gj = 20
+        emission_2015_in_ton_per_gj = 5
+        emission_2050_in_ton_per_gj = 50
+        availability_2015_in_gj = 7
+        availability_2050_in_gj = 70
+        subsidies_2015_in_euro_per_gj = 9
+        subsidies_2030_in_euro_per_gj = 39
+        subsidies_2050_in_euro_per_gj = 90
+        taxes_2015_in_euro_per_gj = 11
+        taxes_2050_in_euro_per_gj = 110
+    
+&gt;       energy_carrier = EnergyCarrier(
+            id_energy_carrier,
+            name,
+            cost_2015_in_euro_per_gj,
+            cost_2030_in_euro_per_gj,
+            cost_2050_in_euro_per_gj,
+            emission_2015_in_ton_per_gj,
+            emission_2050_in_ton_per_gj,
+            availability_2015_in_gj,
+            availability_2050_in_gj,
+            subsidies_2015_in_euro_per_gj,
+            subsidies_2030_in_euro_per_gj,
+            subsidies_2050_in_euro_per_gj,
+            taxes_2015_in_euro_per_gj,
+            taxes_2050_in_euro_per_gj,
+        )
+E       TypeError: EnergyCarrier.__init__() takes 4 positional arguments but 15 were given
+
+test/energy_carrier/test_energy_carrier.py:27: TypeError</error></testcase><testcase classname="test.energy_carrier.test_energy_carrier" name="test_subsidies_in_euro_per_gj" time="0.000"><error message="failed on setup with &quot;TypeError: EnergyCarrier.__init__() takes 4 positional arguments but 15 were given&quot;">@pytest.fixture
+    def sut():
+        id_energy_carrier = 0
+        name = 'dummy'
+        cost_2015_in_euro_per_gj = 2
+        cost_2030_in_euro_per_gj = 5
+        cost_2050_in_euro_per_gj = 20
+        emission_2015_in_ton_per_gj = 5
+        emission_2050_in_ton_per_gj = 50
+        availability_2015_in_gj = 7
+        availability_2050_in_gj = 70
+        subsidies_2015_in_euro_per_gj = 9
+        subsidies_2030_in_euro_per_gj = 39
+        subsidies_2050_in_euro_per_gj = 90
+        taxes_2015_in_euro_per_gj = 11
+        taxes_2050_in_euro_per_gj = 110
+    
+&gt;       energy_carrier = EnergyCarrier(
+            id_energy_carrier,
+            name,
+            cost_2015_in_euro_per_gj,
+            cost_2030_in_euro_per_gj,
+            cost_2050_in_euro_per_gj,
+            emission_2015_in_ton_per_gj,
+            emission_2050_in_ton_per_gj,
+            availability_2015_in_gj,
+            availability_2050_in_gj,
+            subsidies_2015_in_euro_per_gj,
+            subsidies_2030_in_euro_per_gj,
+            subsidies_2050_in_euro_per_gj,
+            taxes_2015_in_euro_per_gj,
+            taxes_2050_in_euro_per_gj,
+        )
+E       TypeError: EnergyCarrier.__init__() takes 4 positional arguments but 15 were given
+
+test/energy_carrier/test_energy_carrier.py:27: TypeError</error></testcase><testcase classname="test.energy_carrier.test_energy_carrier" name="test_taxes_in_euro_per_gj" time="0.000"><error message="failed on setup with &quot;TypeError: EnergyCarrier.__init__() takes 4 positional arguments but 15 were given&quot;">@pytest.fixture
+    def sut():
+        id_energy_carrier = 0
+        name = 'dummy'
+        cost_2015_in_euro_per_gj = 2
+        cost_2030_in_euro_per_gj = 5
+        cost_2050_in_euro_per_gj = 20
+        emission_2015_in_ton_per_gj = 5
+        emission_2050_in_ton_per_gj = 50
+        availability_2015_in_gj = 7
+        availability_2050_in_gj = 70
+        subsidies_2015_in_euro_per_gj = 9
+        subsidies_2030_in_euro_per_gj = 39
+        subsidies_2050_in_euro_per_gj = 90
+        taxes_2015_in_euro_per_gj = 11
+        taxes_2050_in_euro_per_gj = 110
+    
+&gt;       energy_carrier = EnergyCarrier(
+            id_energy_carrier,
+            name,
+            cost_2015_in_euro_per_gj,
+            cost_2030_in_euro_per_gj,
+            cost_2050_in_euro_per_gj,
+            emission_2015_in_ton_per_gj,
+            emission_2050_in_ton_per_gj,
+            availability_2015_in_gj,
+            availability_2050_in_gj,
+            subsidies_2015_in_euro_per_gj,
+            subsidies_2030_in_euro_per_gj,
+            subsidies_2050_in_euro_per_gj,
+            taxes_2015_in_euro_per_gj,
+            taxes_2050_in_euro_per_gj,
+        )
+E       TypeError: EnergyCarrier.__init__() takes 4 positional arguments but 15 were given
+
+test/energy_carrier/test_energy_carrier.py:27: TypeError</error></testcase><testcase classname="test.energy_carrier.test_energy_carrier_factory" name="test_create_energy_carrier_map" time="0.003" /><testcase classname="test.energy_carrier.test_energy_carrier_factory" name="test_create_energy_carrier" time="0.002" /><testcase classname="test.energy_demand.test_energy_demand" name="test_energy_carrier_cost_in_euro_per_ton" time="0.000" /><testcase classname="test.energy_demand.test_energy_demand" name="test_energy_carrier_emission_in_ton_co2_per_ton" time="0.000" /><testcase classname="test.energy_demand.test_energy_demand" name="test_energy_carrier_subsidies_in_euro_per_ton" time="0.000" /><testcase classname="test.energy_demand.test_energy_demand" name="test_energy_carrier_taxes_in_euro_per_ton" time="0.000" /><testcase classname="test.energy_demand.test_energy_demand" name="test_get_energy_carrier_id" time="0.000" /><testcase classname="test.energy_demand.test_energy_demand_factory.TestCreateEnergyDemands" name="test_with_zero_fuel_demand" time="0.001" /><testcase classname="test.energy_demand.test_energy_demand_factory.TestCreateEnergyDemands" name="test_with_non_zero_fuel_demand" time="0.003" /><testcase classname="test.energy_demand.test_energy_demand_factory.TestCreateEnergyDemands" name="test_with_missing_mapping_entry" time="0.002"><failure message="Failed: DID NOT RAISE &lt;class 'ValueError'&gt;">self = &lt;test.energy_demand.test_energy_demand_factory.TestCreateEnergyDemands object at 0x110abbb30&gt;
+sut = &lt;energy_demand.energy_demand_factory.EnergyDemandFactory object at 0x13589a420&gt;
+
+    @patch.object(EnergyDemand, '__init__', energy_demand_init_mock)
+    def test_with_missing_mapping_entry(self, sut):
+        sut._create_energy_demand = MagicMock(return_value='dummy_energy_demand')
+    
+        id_process = 1000
+        fuel_demand_in_gj_per_ton = 10
+    
+&gt;       with pytest.raises(ValueError, match="'No feedstock shares"):
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       Failed: DID NOT RAISE &lt;class 'ValueError'&gt;
+
+test/energy_demand/test_energy_demand_factory.py:84: Failed</failure></testcase><testcase classname="test.energy_demand.test_energy_demand_factory" name="test_create_energy_demand" time="0.001" /><testcase classname="test.industrial_site.test_site.TestProcessYear" name="test_deterministic_mode" time="0.000" /><testcase classname="test.industrial_site.test_site.TestProcessYear" name="test_monte_carlo_mode" time="0.000" /><testcase classname="test.industrial_site.test_site.TestProcessYear" name="test_unknown_mode" time="0.001" /><testcase classname="test.industrial_site.test_site" name="test_visitor_call" time="0.000" /><testcase classname="test.industrial_site.test_site" name="test_number_of_process_usage" time="0.000" /><testcase classname="test.industrial_site.test_site" name="test_process_ids" time="0.000" /><testcase classname="test.industrial_site.test_site_factory.TestCreateSites" name="test_with_data" time="0.002" /><testcase classname="test.industrial_site.test_site_factory.TestCreateSites" name="test_without_data" time="0.001" /><testcase classname="test.industrial_site.test_site_factory" name="test_create_site" time="0.001" /><testcase classname="test.mesa_wrapper.test_mesa_server" name="test_run" time="0.000" /><testcase classname="test.mesa_wrapper.test_mesa_server.TestAgentPortrayal" name="test_blue" time="0.000" /><testcase classname="test.mesa_wrapper.test_mesa_server.TestAgentPortrayal" name="test_red" time="0.004"><failure message="AssertionError: assert 'Tomato' == 'Red'&#10;  &#10;  #x1B[0m#x1B[91m- Red#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ Tomato#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">self = &lt;test.mesa_wrapper.test_mesa_server.TestAgentPortrayal object at 0x13518c710&gt;, sut = &lt;mesa_wrapper.mesa_server.MesaServer object at 0x1359118b0&gt;
+
+    def test_red(self, sut):
+        self.site_agent.site.process_ids = [11]
+        result = sut.agent_portrayal(self.site_agent)
+&gt;       assert result['color'] == 'Red'
+E       AssertionError: assert 'Tomato' == 'Red'
+E         
+E         #x1B[0m#x1B[91m- Red#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ Tomato#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+test/mesa_wrapper/test_mesa_server.py:58: AssertionError</failure></testcase><testcase classname="test.mesa_wrapper.test_mesa_server.TestAgentPortrayal" name="test_black" time="0.000"><failure message="AssertionError: assert 'Grey' == 'Black'&#10;  &#10;  #x1B[0m#x1B[91m- Black#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ Grey#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">self = &lt;test.mesa_wrapper.test_mesa_server.TestAgentPortrayal object at 0x13518c890&gt;, sut = &lt;mesa_wrapper.mesa_server.MesaServer object at 0x1357ea450&gt;
+
+    def test_black(self, sut):
+        self.site_agent.site.process_ids = [9]
+        result = sut.agent_portrayal(self.site_agent)
+&gt;       assert result['color'] == 'Black'
+E       AssertionError: assert 'Grey' == 'Black'
+E         
+E         #x1B[0m#x1B[91m- Black#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ Grey#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+test/mesa_wrapper/test_mesa_server.py:63: AssertionError</failure></testcase><testcase classname="test.mesa_wrapper.test_mesa_server.TestAgentPortrayal" name="test_yellow" time="0.000"><failure message="KeyError: 'color'">self = &lt;test.mesa_wrapper.test_mesa_server.TestAgentPortrayal object at 0x13518ca10&gt;, sut = &lt;mesa_wrapper.mesa_server.MesaServer object at 0x1357eba40&gt;
+
+    def test_yellow(self, sut):
+        self.site_agent.site.process_ids = [12]
+        result = sut.agent_portrayal(self.site_agent)
+&gt;       assert result['color'] == 'Yellow'
+               ^^^^^^^^^^^^^^^
+E       KeyError: 'color'
+
+test/mesa_wrapper/test_mesa_server.py:68: KeyError</failure></testcase><testcase classname="test.mesa_wrapper.test_mesa_server.TestAgentPortrayal" name="test_green" time="0.000" /><testcase classname="test.mesa_wrapper.test_mesa_server.TestAgentPortrayal" name="test_brown" time="0.000"><failure message="AssertionError: assert 'Sienna' == 'Brown'&#10;  &#10;  #x1B[0m#x1B[91m- Brown#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ Sienna#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">self = &lt;test.mesa_wrapper.test_mesa_server.TestAgentPortrayal object at 0x13518cda0&gt;, sut = &lt;mesa_wrapper.mesa_server.MesaServer object at 0x135292600&gt;
+
+    def test_brown(self, sut):
+        self.site_agent.site.process_ids = [100]
+        result = sut.agent_portrayal(self.site_agent)
+&gt;       assert result['color'] == 'Brown'
+E       AssertionError: assert 'Sienna' == 'Brown'
+E         
+E         #x1B[0m#x1B[91m- Brown#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ Sienna#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+test/mesa_wrapper/test_mesa_server.py:78: AssertionError</failure></testcase><testcase classname="test.mesa_wrapper.test_mesa_server.TestAgentPortrayal" name="test_pink" time="0.000"><failure message="AssertionError: assert 'Turquoise' == 'Pink'&#10;  &#10;  #x1B[0m#x1B[91m- Pink#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  #x1B[92m+ Turquoise#x1B[39;49;00m#x1B[90m#x1B[39;49;00m">self = &lt;test.mesa_wrapper.test_mesa_server.TestAgentPortrayal object at 0x13518cf80&gt;, sut = &lt;mesa_wrapper.mesa_server.MesaServer object at 0x135830050&gt;
+
+    def test_pink(self, sut):
+        self.site_agent.site.process_ids = [8]
+        result = sut.agent_portrayal(self.site_agent)
+&gt;       assert result['color'] == 'Pink'
+E       AssertionError: assert 'Turquoise' == 'Pink'
+E         
+E         #x1B[0m#x1B[91m- Pink#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         #x1B[92m+ Turquoise#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+
+test/mesa_wrapper/test_mesa_server.py:83: AssertionError</failure></testcase><testcase classname="test.mesa_wrapper.test_mesa_server" name="test__create_visualization_server" time="0.000" /><testcase classname="test.mesa_wrapper.test_mesa_server" name="test__create_visualization_elements" time="0.000"><failure message="TypeError: chart_module_init_mock() missing 3 required positional arguments: '_canvas_height', '_canvas_width', and '_data_collector_name'">sut = &lt;mesa_wrapper.mesa_server.MesaServer object at 0x135912360&gt;
+
+    @patch.object(MapModule, '__init__', map_module_init_mock)
+    @patch.object(ChartModule, '__init__', chart_module_init_mock)
+    def test__create_visualization_elements(sut):
+&gt;       result = sut._create_visualization_elements()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test/mesa_wrapper/test_mesa_server.py:120: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mesa_wrapper.mesa_server.MesaServer object at 0x135912360&gt;
+
+    def _create_visualization_elements(self):
+        view = [50, 10]
+        zoom = 4
+        map_height = 800
+        map_width = 500
+        map_element = MapModule(self.agent_portrayal, view, zoom, map_height, map_width)
+&gt;       process_chart = ChartModule(
+            [
+                {'Label': 'CH4-DRI', 'Color': 'Blue'},
+                {'Label': 'H2-DRI', 'Color': 'Green'},
+                {'Label': '11', 'Color': 'Red'},
+                {'Label': '12', 'Color': 'Black'},
+                {'Label': '13', 'Color': 'Yellow'},
+                {'Label': 'agent_count', 'Color': 'Purple'},
+            ]
+        )
+E       TypeError: chart_module_init_mock() missing 3 required positional arguments: '_canvas_height', '_canvas_width', and '_data_collector_name'
+
+src/mesa_wrapper/mesa_server.py:92: TypeError</failure></testcase><testcase classname="test.mesa_wrapper.test_mesa_simulation.TestStep" name="test_running" time="0.009"><error message="failed on setup with &quot;TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'&quot;">@pytest.fixture
+    def sut():
+        with (
+            patch.object(TimeSchedule, '__init__', time_schedule_init_mock),
+            patch.object(DataCollector, '__init__', data_collector_init_mock),
+        ):
+&gt;           return MesaSimulation(
+                simulation_mode='mocked_simulation_mode',
+                time_span=[2020],
+                regions=MagicMock(),
+                visitors=[],
+            )
+
+test/mesa_wrapper/test_mesa_simulation.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/mesa_wrapper/mesa_simulation.py:41: in __init__
+    self.datacollector = self._create_data_collector()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mesa_wrapper.mesa_simulation.MesaSimulation object at 0x135913590&gt;
+
+    def _create_data_collector(self):
+&gt;       return DataCollector(
+            # only model_reporters can be displayed by ChartModule of mesa server
+            model_reporters={'agent_count': lambda m: m.schedule.get_agent_count()},
+            agent_reporters={'process_ids': self._determine_process_ids},
+        )
+E       TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'
+
+src/mesa_wrapper/mesa_simulation.py:100: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_mesa_simulation.TestStep" name="test_not_running" time="0.000"><error message="failed on setup with &quot;TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'&quot;">@pytest.fixture
+    def sut():
+        with (
+            patch.object(TimeSchedule, '__init__', time_schedule_init_mock),
+            patch.object(DataCollector, '__init__', data_collector_init_mock),
+        ):
+&gt;           return MesaSimulation(
+                simulation_mode='mocked_simulation_mode',
+                time_span=[2020],
+                regions=MagicMock(),
+                visitors=[],
+            )
+
+test/mesa_wrapper/test_mesa_simulation.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/mesa_wrapper/mesa_simulation.py:41: in __init__
+    self.datacollector = self._create_data_collector()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mesa_wrapper.mesa_simulation.MesaSimulation object at 0x135830230&gt;
+
+    def _create_data_collector(self):
+&gt;       return DataCollector(
+            # only model_reporters can be displayed by ChartModule of mesa server
+            model_reporters={'agent_count': lambda m: m.schedule.get_agent_count()},
+            agent_reporters={'process_ids': self._determine_process_ids},
+        )
+E       TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'
+
+src/mesa_wrapper/mesa_simulation.py:100: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_mesa_simulation" name="test_run" time="0.000"><error message="failed on setup with &quot;TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'&quot;">@pytest.fixture
+    def sut():
+        with (
+            patch.object(TimeSchedule, '__init__', time_schedule_init_mock),
+            patch.object(DataCollector, '__init__', data_collector_init_mock),
+        ):
+&gt;           return MesaSimulation(
+                simulation_mode='mocked_simulation_mode',
+                time_span=[2020],
+                regions=MagicMock(),
+                visitors=[],
+            )
+
+test/mesa_wrapper/test_mesa_simulation.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/mesa_wrapper/mesa_simulation.py:41: in __init__
+    self.datacollector = self._create_data_collector()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mesa_wrapper.mesa_simulation.MesaSimulation object at 0x135851d00&gt;
+
+    def _create_data_collector(self):
+&gt;       return DataCollector(
+            # only model_reporters can be displayed by ChartModule of mesa server
+            model_reporters={'agent_count': lambda m: m.schedule.get_agent_count()},
+            agent_reporters={'process_ids': self._determine_process_ids},
+        )
+E       TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'
+
+src/mesa_wrapper/mesa_simulation.py:100: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_mesa_simulation" name="test_year" time="0.000"><error message="failed on setup with &quot;TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'&quot;">@pytest.fixture
+    def sut():
+        with (
+            patch.object(TimeSchedule, '__init__', time_schedule_init_mock),
+            patch.object(DataCollector, '__init__', data_collector_init_mock),
+        ):
+&gt;           return MesaSimulation(
+                simulation_mode='mocked_simulation_mode',
+                time_span=[2020],
+                regions=MagicMock(),
+                visitors=[],
+            )
+
+test/mesa_wrapper/test_mesa_simulation.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/mesa_wrapper/mesa_simulation.py:41: in __init__
+    self.datacollector = self._create_data_collector()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mesa_wrapper.mesa_simulation.MesaSimulation object at 0x135850110&gt;
+
+    def _create_data_collector(self):
+&gt;       return DataCollector(
+            # only model_reporters can be displayed by ChartModule of mesa server
+            model_reporters={'agent_count': lambda m: m.schedule.get_agent_count()},
+            agent_reporters={'process_ids': self._determine_process_ids},
+        )
+E       TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'
+
+src/mesa_wrapper/mesa_simulation.py:100: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_mesa_simulation" name="test__create_site_agents" time="0.000"><error message="failed on setup with &quot;TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'&quot;">@pytest.fixture
+    def sut():
+        with (
+            patch.object(TimeSchedule, '__init__', time_schedule_init_mock),
+            patch.object(DataCollector, '__init__', data_collector_init_mock),
+        ):
+&gt;           return MesaSimulation(
+                simulation_mode='mocked_simulation_mode',
+                time_span=[2020],
+                regions=MagicMock(),
+                visitors=[],
+            )
+
+test/mesa_wrapper/test_mesa_simulation.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/mesa_wrapper/mesa_simulation.py:41: in __init__
+    self.datacollector = self._create_data_collector()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mesa_wrapper.mesa_simulation.MesaSimulation object at 0x13585a540&gt;
+
+    def _create_data_collector(self):
+&gt;       return DataCollector(
+            # only model_reporters can be displayed by ChartModule of mesa server
+            model_reporters={'agent_count': lambda m: m.schedule.get_agent_count()},
+            agent_reporters={'process_ids': self._determine_process_ids},
+        )
+E       TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'
+
+src/mesa_wrapper/mesa_simulation.py:100: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_mesa_simulation" name="test__create_data_collector" time="0.000"><error message="failed on setup with &quot;TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'&quot;">@pytest.fixture
+    def sut():
+        with (
+            patch.object(TimeSchedule, '__init__', time_schedule_init_mock),
+            patch.object(DataCollector, '__init__', data_collector_init_mock),
+        ):
+&gt;           return MesaSimulation(
+                simulation_mode='mocked_simulation_mode',
+                time_span=[2020],
+                regions=MagicMock(),
+                visitors=[],
+            )
+
+test/mesa_wrapper/test_mesa_simulation.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/mesa_wrapper/mesa_simulation.py:41: in __init__
+    self.datacollector = self._create_data_collector()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mesa_wrapper.mesa_simulation.MesaSimulation object at 0x135869e20&gt;
+
+    def _create_data_collector(self):
+&gt;       return DataCollector(
+            # only model_reporters can be displayed by ChartModule of mesa server
+            model_reporters={'agent_count': lambda m: m.schedule.get_agent_count()},
+            agent_reporters={'process_ids': self._determine_process_ids},
+        )
+E       TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'
+
+src/mesa_wrapper/mesa_simulation.py:100: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_mesa_simulation" name="test__determine_process_ids" time="0.000"><error message="failed on setup with &quot;TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'&quot;">@pytest.fixture
+    def sut():
+        with (
+            patch.object(TimeSchedule, '__init__', time_schedule_init_mock),
+            patch.object(DataCollector, '__init__', data_collector_init_mock),
+        ):
+&gt;           return MesaSimulation(
+                simulation_mode='mocked_simulation_mode',
+                time_span=[2020],
+                regions=MagicMock(),
+                visitors=[],
+            )
+
+test/mesa_wrapper/test_mesa_simulation.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/mesa_wrapper/mesa_simulation.py:41: in __init__
+    self.datacollector = self._create_data_collector()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mesa_wrapper.mesa_simulation.MesaSimulation object at 0x135874560&gt;
+
+    def _create_data_collector(self):
+&gt;       return DataCollector(
+            # only model_reporters can be displayed by ChartModule of mesa server
+            model_reporters={'agent_count': lambda m: m.schedule.get_agent_count()},
+            agent_reporters={'process_ids': self._determine_process_ids},
+        )
+E       TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'
+
+src/mesa_wrapper/mesa_simulation.py:100: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_mesa_simulation" name="test_calculate_pipeline_site_distances" time="0.000"><error message="failed on setup with &quot;TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'&quot;">@pytest.fixture
+    def sut():
+        with (
+            patch.object(TimeSchedule, '__init__', time_schedule_init_mock),
+            patch.object(DataCollector, '__init__', data_collector_init_mock),
+        ):
+&gt;           return MesaSimulation(
+                simulation_mode='mocked_simulation_mode',
+                time_span=[2020],
+                regions=MagicMock(),
+                visitors=[],
+            )
+
+test/mesa_wrapper/test_mesa_simulation.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/mesa_wrapper/mesa_simulation.py:41: in __init__
+    self.datacollector = self._create_data_collector()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mesa_wrapper.mesa_simulation.MesaSimulation object at 0x135869550&gt;
+
+    def _create_data_collector(self):
+&gt;       return DataCollector(
+            # only model_reporters can be displayed by ChartModule of mesa server
+            model_reporters={'agent_count': lambda m: m.schedule.get_agent_count()},
+            agent_reporters={'process_ids': self._determine_process_ids},
+        )
+E       TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'
+
+src/mesa_wrapper/mesa_simulation.py:100: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_mesa_simulation" name="test_calculate_km_distances" time="0.000"><error message="failed on setup with &quot;TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'&quot;">@pytest.fixture
+    def sut():
+        with (
+            patch.object(TimeSchedule, '__init__', time_schedule_init_mock),
+            patch.object(DataCollector, '__init__', data_collector_init_mock),
+        ):
+&gt;           return MesaSimulation(
+                simulation_mode='mocked_simulation_mode',
+                time_span=[2020],
+                regions=MagicMock(),
+                visitors=[],
+            )
+
+test/mesa_wrapper/test_mesa_simulation.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/mesa_wrapper/mesa_simulation.py:41: in __init__
+    self.datacollector = self._create_data_collector()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mesa_wrapper.mesa_simulation.MesaSimulation object at 0x13585bad0&gt;
+
+    def _create_data_collector(self):
+&gt;       return DataCollector(
+            # only model_reporters can be displayed by ChartModule of mesa server
+            model_reporters={'agent_count': lambda m: m.schedule.get_agent_count()},
+            agent_reporters={'process_ids': self._determine_process_ids},
+        )
+E       TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'
+
+src/mesa_wrapper/mesa_simulation.py:100: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_mesa_simulation" name="test_calculate_h2pipeline_site_distance" time="0.000"><error message="failed on setup with &quot;TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'&quot;">@pytest.fixture
+    def sut():
+        with (
+            patch.object(TimeSchedule, '__init__', time_schedule_init_mock),
+            patch.object(DataCollector, '__init__', data_collector_init_mock),
+        ):
+&gt;           return MesaSimulation(
+                simulation_mode='mocked_simulation_mode',
+                time_span=[2020],
+                regions=MagicMock(),
+                visitors=[],
+            )
+
+test/mesa_wrapper/test_mesa_simulation.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/mesa_wrapper/mesa_simulation.py:41: in __init__
+    self.datacollector = self._create_data_collector()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mesa_wrapper.mesa_simulation.MesaSimulation object at 0x135853cb0&gt;
+
+    def _create_data_collector(self):
+&gt;       return DataCollector(
+            # only model_reporters can be displayed by ChartModule of mesa server
+            model_reporters={'agent_count': lambda m: m.schedule.get_agent_count()},
+            agent_reporters={'process_ids': self._determine_process_ids},
+        )
+E       TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'
+
+src/mesa_wrapper/mesa_simulation.py:100: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_mesa_simulation" name="test_update_pipelines" time="0.000"><error message="failed on setup with &quot;TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'&quot;">@pytest.fixture
+    def sut():
+        with (
+            patch.object(TimeSchedule, '__init__', time_schedule_init_mock),
+            patch.object(DataCollector, '__init__', data_collector_init_mock),
+        ):
+&gt;           return MesaSimulation(
+                simulation_mode='mocked_simulation_mode',
+                time_span=[2020],
+                regions=MagicMock(),
+                visitors=[],
+            )
+
+test/mesa_wrapper/test_mesa_simulation.py:39: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/mesa_wrapper/mesa_simulation.py:41: in __init__
+    self.datacollector = self._create_data_collector()
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mesa_wrapper.mesa_simulation.MesaSimulation object at 0x135852180&gt;
+
+    def _create_data_collector(self):
+&gt;       return DataCollector(
+            # only model_reporters can be displayed by ChartModule of mesa server
+            model_reporters={'agent_count': lambda m: m.schedule.get_agent_count()},
+            agent_reporters={'process_ids': self._determine_process_ids},
+        )
+E       TypeError: data_collector_init_mock() got an unexpected keyword argument 'model_reporters'
+
+src/mesa_wrapper/mesa_simulation.py:100: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_mesa_simulation" name="test_update_pipeline_site_relations" time="0.000"><failure message="AttributeError: 'FixtureFunctionDefinition' object has no attribute 'pipeline_site_relations'">def test_update_pipeline_site_relations():
+&gt;       sut.pipeline_site_relations()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'FixtureFunctionDefinition' object has no attribute 'pipeline_site_relations'
+
+test/mesa_wrapper/test_mesa_simulation.py:157: AttributeError</failure></testcase><testcase classname="test.mesa_wrapper.test_site_agent" name="test_step" time="0.000"><error message="failed on setup with &quot;TypeError: SiteAgent.__init__() got an unexpected keyword argument 'unique_id'&quot;">@pytest.fixture
+    def sut():
+&gt;       return SiteAgent(
+            unique_id='mocked_id',
+            model=MagicMock(),
+            shape=MagicMock(),
+            region_id=MagicMock(),
+            site=MagicMock(),
+        )
+E       TypeError: SiteAgent.__init__() got an unexpected keyword argument 'unique_id'
+
+test/mesa_wrapper/test_site_agent.py:13: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_site_agent" name="test__geo_interface__" time="0.000"><error message="failed on setup with &quot;TypeError: SiteAgent.__init__() got an unexpected keyword argument 'unique_id'&quot;">@pytest.fixture
+    def sut():
+&gt;       return SiteAgent(
+            unique_id='mocked_id',
+            model=MagicMock(),
+            shape=MagicMock(),
+            region_id=MagicMock(),
+            site=MagicMock(),
+        )
+E       TypeError: SiteAgent.__init__() got an unexpected keyword argument 'unique_id'
+
+test/mesa_wrapper/test_site_agent.py:13: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_site_agent" name="test_pipeline_cost_scaling" time="0.000"><error message="failed on setup with &quot;TypeError: SiteAgent.__init__() got an unexpected keyword argument 'unique_id'&quot;">@pytest.fixture
+    def sut():
+&gt;       return SiteAgent(
+            unique_id='mocked_id',
+            model=MagicMock(),
+            shape=MagicMock(),
+            region_id=MagicMock(),
+            site=MagicMock(),
+        )
+E       TypeError: SiteAgent.__init__() got an unexpected keyword argument 'unique_id'
+
+test/mesa_wrapper/test_site_agent.py:13: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_site_agent" name="test_get_distance_to_closest_h2_pipeline" time="0.000"><error message="failed on setup with &quot;TypeError: SiteAgent.__init__() got an unexpected keyword argument 'unique_id'&quot;">@pytest.fixture
+    def sut():
+&gt;       return SiteAgent(
+            unique_id='mocked_id',
+            model=MagicMock(),
+            shape=MagicMock(),
+            region_id=MagicMock(),
+            site=MagicMock(),
+        )
+E       TypeError: SiteAgent.__init__() got an unexpected keyword argument 'unique_id'
+
+test/mesa_wrapper/test_site_agent.py:13: TypeError</error></testcase><testcase classname="test.mesa_wrapper.test_time_schedule" name="test_init_with_empty_timespan" time="0.001" /><testcase classname="test.mesa_wrapper.test_time_schedule.TestStep" name="test_normal_usage" time="0.000"><failure message="AttributeError: 'str' object has no attribute 'step'">self = &lt;test.mesa_wrapper.test_time_schedule.TestStep object at 0x13518dfa0&gt;, sut = &lt;mesa_wrapper.time_schedule.TimeSchedule object at 0x135833bf0&gt;
+
+    def test_normal_usage(self, sut):
+        agent_mock = MagicMock()
+        sut._agents = {'foo': agent_mock}
+        assert sut.time == 2020
+&gt;       sut.step()
+
+test/mesa_wrapper/test_time_schedule.py:26: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mesa_wrapper.time_schedule.TimeSchedule object at 0x135833bf0&gt;
+
+    def step(self) -&gt; None:
+        """Step all agents, then advance them."""
+        has_current_step = len(self._time_span) &gt; self.steps
+        if not has_current_step:
+            message = 'Next step is not available. End of time span already reached'
+            raise StopIteration(message)
+    
+        for agent in self._agents:
+&gt;           agent.step()
+            ^^^^^^^^^^
+E           AttributeError: 'str' object has no attribute 'step'
+
+src/mesa_wrapper/time_schedule.py:41: AttributeError</failure></testcase><testcase classname="test.mesa_wrapper.test_time_schedule.TestStep" name="test_step_limit_exceeded" time="0.000"><failure message="AttributeError: 'str' object has no attribute 'step'">self = &lt;test.mesa_wrapper.test_time_schedule.TestStep object at 0x13518db50&gt;, sut = &lt;mesa_wrapper.time_schedule.TimeSchedule object at 0x135874050&gt;
+
+    def test_step_limit_exceeded(self, sut):
+        agent_mock = MagicMock()
+        sut._agents = {'foo': agent_mock}
+        assert sut.time == 2020
+&gt;       sut.step()
+
+test/mesa_wrapper/test_time_schedule.py:36: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;mesa_wrapper.time_schedule.TimeSchedule object at 0x135874050&gt;
+
+    def step(self) -&gt; None:
+        """Step all agents, then advance them."""
+        has_current_step = len(self._time_span) &gt; self.steps
+        if not has_current_step:
+            message = 'Next step is not available. End of time span already reached'
+            raise StopIteration(message)
+    
+        for agent in self._agents:
+&gt;           agent.step()
+            ^^^^^^^^^^
+E           AttributeError: 'str' object has no attribute 'step'
+
+src/mesa_wrapper/time_schedule.py:41: AttributeError</failure></testcase><testcase classname="test.process.test_process" name="test_accept" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_production_cost_in_euro" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_check_energy_carrier" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_process_emission_in_tons" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_investment_in_euro" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_annuity_on_investment" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_year_of_new_investment" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_energy_emissions_in_ton_co2_per_ton" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_production_cost_in_euro_per_ton" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_energy_and_emission_cost" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_annuity_factor" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_annuity_on_pipeline_investment" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_annuity_on_investment_per_ton" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_energy_carrier_cost_in_euro_per_ton" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_energy_carrier_subsidies_in_euro_per_ton" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_energy_carrier_taxes_in_euro_per_ton" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_capex_in_euro_per_ton" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_opex_in_euro_per_ton" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_efficiency_improvement" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_investment_funding" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process" name="test_investment_flexibility" time="0.000"><error message="failed on setup with &quot;TypeError: Process.__init__() takes 3 positional arguments but 17 were given&quot;">@pytest.fixture
+    def sut():
+        id_process = 39
+        capex_2015_in_euro_per_ton = 2
+        capex_2050_in_euro_per_ton = 20
+        opex_2015_in_euro_per_ton = 2
+        opex_2050_in_euro_per_ton = 20
+        lifetime_in_years = 2
+        interest_rate = 1
+        depreciation_period = 1
+        process_emission_in_ton_co2_per_ton = 2
+        efficiency_improvement_2015 = 0
+        efficiency_improvement_2050 = 0
+        investment_funding_2015 = 0
+        investment_funding_2050 = 0
+        investment_flexibility_2015 = 0
+        investment_flexibility_2050 = 0
+        energy_demands = MagicMock()
+    
+&gt;       process = Process(
+            id_process,
+            capex_2015_in_euro_per_ton,
+            capex_2050_in_euro_per_ton,
+            opex_2015_in_euro_per_ton,
+            opex_2050_in_euro_per_ton,
+            lifetime_in_years,
+            interest_rate,
+            depreciation_period,
+            process_emission_in_ton_co2_per_ton,
+            efficiency_improvement_2015,
+            efficiency_improvement_2050,
+            investment_funding_2015,
+            investment_funding_2050,
+            investment_flexibility_2015,
+            investment_flexibility_2050,
+            energy_demands,
+        )
+E       TypeError: Process.__init__() takes 3 positional arguments but 17 were given
+
+test/process/test_process.py:31: TypeError</error></testcase><testcase classname="test.process.test_process_factory" name="test_create_processes" time="0.001" /><testcase classname="test.process.test_process_factory" name="test_create_process" time="0.001"><failure message="KeyError: 'feedstock_demand_in_gj_per_ton'">self = Index(['capex_2015_in_euro_per_ton', 'capex_2050_in_euro_per_ton',
+       'opex_2015_in_euro_per_ton', 'opex_2050_in_e...tment_flexibility_2050', 'electricity_demand_in_gj_per_ton',
+       'fuel_demand_in_gj_per_ton'],
+      dtype='object')
+key = 'feedstock_demand_in_gj_per_ton'
+
+    def get_loc(self, key):
+        """
+        Get integer location, slice or boolean mask for requested label.
+    
+        Parameters
+        ----------
+        key : label
+    
+        Returns
+        -------
+        int if unique index, slice if monotonic index, else mask
+    
+        Examples
+        --------
+        &gt;&gt;&gt; unique_index = pd.Index(list('abc'))
+        &gt;&gt;&gt; unique_index.get_loc('b')
+        1
+    
+        &gt;&gt;&gt; monotonic_index = pd.Index(list('abbc'))
+        &gt;&gt;&gt; monotonic_index.get_loc('b')
+        slice(1, 3, None)
+    
+        &gt;&gt;&gt; non_monotonic_index = pd.Index(list('abcb'))
+        &gt;&gt;&gt; non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        casted_key = self._maybe_cast_indexer(key)
+        try:
+&gt;           return self._engine.get_loc(casted_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/opt/anaconda3/envs/forecast-sites/lib/python3.12/site-packages/pandas/core/indexes/base.py:3812: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pandas/_libs/index.pyx:167: in pandas._libs.index.IndexEngine.get_loc
+    ???
+pandas/_libs/index.pyx:196: in pandas._libs.index.IndexEngine.get_loc
+    ???
+pandas/_libs/hashtable_class_helper.pxi:7088: in pandas._libs.hashtable.PyObjectHashTable.get_item
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+&gt;   ???
+E   KeyError: 'feedstock_demand_in_gj_per_ton'
+
+pandas/_libs/hashtable_class_helper.pxi:7096: KeyError
+
+The above exception was the direct cause of the following exception:
+
+sut = &lt;process.process_factory.ProcessFactory object at 0x13587c680&gt;
+
+    @patch.object(Process, '__init__', process_init_mock)
+    def test_create_process(sut):
+        id_product = 1
+        id_process = 10
+&gt;       process = sut.create_process(id_product, id_process)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+test/process/test_process_factory.py:84: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/process/process_factory.py:49: in create_process
+    feedstock_demand_in_gj_per_ton = process_entry['feedstock_demand_in_gj_per_ton']
+                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/envs/forecast-sites/lib/python3.12/site-packages/pandas/core/series.py:1130: in __getitem__
+    return self._get_value(key)
+           ^^^^^^^^^^^^^^^^^^^^
+/opt/anaconda3/envs/forecast-sites/lib/python3.12/site-packages/pandas/core/series.py:1246: in _get_value
+    loc = self.index.get_loc(label)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = Index(['capex_2015_in_euro_per_ton', 'capex_2050_in_euro_per_ton',
+       'opex_2015_in_euro_per_ton', 'opex_2050_in_e...tment_flexibility_2050', 'electricity_demand_in_gj_per_ton',
+       'fuel_demand_in_gj_per_ton'],
+      dtype='object')
+key = 'feedstock_demand_in_gj_per_ton'
+
+    def get_loc(self, key):
+        """
+        Get integer location, slice or boolean mask for requested label.
+    
+        Parameters
+        ----------
+        key : label
+    
+        Returns
+        -------
+        int if unique index, slice if monotonic index, else mask
+    
+        Examples
+        --------
+        &gt;&gt;&gt; unique_index = pd.Index(list('abc'))
+        &gt;&gt;&gt; unique_index.get_loc('b')
+        1
+    
+        &gt;&gt;&gt; monotonic_index = pd.Index(list('abbc'))
+        &gt;&gt;&gt; monotonic_index.get_loc('b')
+        slice(1, 3, None)
+    
+        &gt;&gt;&gt; non_monotonic_index = pd.Index(list('abcb'))
+        &gt;&gt;&gt; non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        casted_key = self._maybe_cast_indexer(key)
+        try:
+            return self._engine.get_loc(casted_key)
+        except KeyError as err:
+            if isinstance(casted_key, slice) or (
+                isinstance(casted_key, abc.Iterable)
+                and any(isinstance(x, slice) for x in casted_key)
+            ):
+                raise InvalidIndexError(key)
+&gt;           raise KeyError(key) from err
+E           KeyError: 'feedstock_demand_in_gj_per_ton'
+
+/opt/anaconda3/envs/forecast-sites/lib/python3.12/site-packages/pandas/core/indexes/base.py:3819: KeyError</failure></testcase><testcase classname="test.product.test_product" name="test_accept" time="0.000" /><testcase classname="test.product.test_product_factory" name="test_create_product" time="0.001" /><testcase classname="test.production_unit.test_production_unit.TestProbabilityOfChange" name="test_without_year_of_last_reinvestment" time="0.000" /><testcase classname="test.production_unit.test_production_unit.TestProbabilityOfChange" name="test_end_of_life_before_year" time="0.000"><failure message="TypeError: ProductionUnit.probability_of_change() missing 2 required positional arguments: 'co2_cost_in_euro_per_ton_co2' and 'pipeline_cost_scaling'">self = &lt;test.production_unit.test_production_unit.TestProbabilityOfChange object at 0x1351079e0&gt;
+sut = &lt;production_unit.production_unit.ProductionUnit object at 0x135b42840&gt;
+
+    def test_end_of_life_before_year(self, sut):
+        sut.process.year_of_new_investment = MagicMock(return_value=2010)
+&gt;       result = sut.probability_of_change(2020)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: ProductionUnit.probability_of_change() missing 2 required positional arguments: 'co2_cost_in_euro_per_ton_co2' and 'pipeline_cost_scaling'
+
+test/production_unit/test_production_unit.py:40: TypeError</failure></testcase><testcase classname="test.production_unit.test_production_unit.TestProbabilityOfChange" name="test_end_of_life_after_year" time="0.000"><failure message="TypeError: ProductionUnit.probability_of_change() missing 2 required positional arguments: 'co2_cost_in_euro_per_ton_co2' and 'pipeline_cost_scaling'">self = &lt;test.production_unit.test_production_unit.TestProbabilityOfChange object at 0x135107bc0&gt;
+sut = &lt;production_unit.production_unit.ProductionUnit object at 0x135b7bdd0&gt;
+
+    def test_end_of_life_after_year(self, sut):
+        sut.process.year_of_new_investment = MagicMock(return_value=2030)
+&gt;       result = sut.probability_of_change(2020)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: ProductionUnit.probability_of_change() missing 2 required positional arguments: 'co2_cost_in_euro_per_ton_co2' and 'pipeline_cost_scaling'
+
+test/production_unit/test_production_unit.py:45: TypeError</failure></testcase><testcase classname="test.production_unit.test_production_unit" name="test_check_production_cost_minima" time="0.000"><failure message="AttributeError: 'function' object has no attribute 'called'">sut = &lt;production_unit.production_unit.ProductionUnit object at 0x135b65100&gt;
+
+    def test_check_production_cost_minima(sut):
+        year = 2015
+        co2_cost_in_euro_per_ton_co2 = 2
+        pipeline_cost_scaling = 1
+        sut._check_production_cost_minima(year, co2_cost_in_euro_per_ton_co2, pipeline_cost_scaling)
+&gt;       assert sut.check_energy_availability.called
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'function' object has no attribute 'called'
+
+test/production_unit/test_production_unit.py:54: AttributeError</failure></testcase><testcase classname="test.production_unit.test_production_unit" name="test_check_fuel_switch" time="0.000"><failure message="AttributeError: 'function' object has no attribute 'called'">sut = &lt;production_unit.production_unit.ProductionUnit object at 0x135b79d60&gt;
+
+    def test_check_fuel_switch(sut):
+        year = 2015
+        sut.process.id = 39
+        co2_cost_in_euro_per_ton_co2 = 2
+        distance_to_closest_h2_pipeline = 1
+        sut._check_fuel_switch(year, co2_cost_in_euro_per_ton_co2, distance_to_closest_h2_pipeline)
+&gt;       assert sut.check_energy_availability.called
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'function' object has no attribute 'called'
+
+test/production_unit/test_production_unit.py:63: AttributeError</failure></testcase><testcase classname="test.production_unit.test_production_unit" name="test_optimize_process" time="0.000"><failure message="TypeError: ProductionUnit.optimize_process() missing 3 required positional arguments: 'pipeline_cost_scaling', 'distance_to_closest_h2_pipeline', and 'probability_limit'">sut = &lt;production_unit.production_unit.ProductionUnit object at 0x135b3a0c0&gt;
+
+    def test_optimize_process(sut):
+        process_with_min_production_cost = sut._process_with_min_production_cost
+        sut._process_with_min_production_cost = MagicMock(return_value='mocked_process')
+        year = 2020
+        co2_cost_in_euro_per_ton_co2 = 2
+&gt;       sut.optimize_process(year, co2_cost_in_euro_per_ton_co2)
+E       TypeError: ProductionUnit.optimize_process() missing 3 required positional arguments: 'pipeline_cost_scaling', 'distance_to_closest_h2_pipeline', and 'probability_limit'
+
+test/production_unit/test_production_unit.py:71: TypeError</failure></testcase><testcase classname="test.production_unit.test_production_unit" name="test_process_with_min_production_cost" time="0.000"><failure message="TypeError: ProductionUnit._process_with_min_production_cost() missing 1 required positional argument: 'pipeline_cost_scaling'">patched_min_object = &lt;MagicMock name='min_object' id='5194625680'&gt;, sut = &lt;production_unit.production_unit.ProductionUnit object at 0x1321167b0&gt;
+
+    @patch('utils.collection_utils.min_object', return_value='mocked_min_object')
+    def test_process_with_min_production_cost(patched_min_object, sut):
+        year = 2020
+        default_process = MagicMock()
+        production_in_tons = 2
+        co2_cost_in_euro_per_ton_co2 = 2
+        pipeline_cost_scaling = 1
+&gt;       result = sut._process_with_min_production_cost(
+            year,
+            default_process,
+            production_in_tons,
+            co2_cost_in_euro_per_ton_co2,
+            pipeline_cost_scaling,
+        )
+E       TypeError: ProductionUnit._process_with_min_production_cost() missing 1 required positional argument: 'pipeline_cost_scaling'
+
+test/production_unit/test_production_unit.py:83: TypeError</failure></testcase><testcase classname="test.production_unit.test_production_unit.TestProcessWithMinEnergyCost" name="test_with_available_processes" time="0.000" /><testcase classname="test.production_unit.test_production_unit.TestProcessWithMinEnergyCost" name="test_without_available_processes" time="0.000" /><testcase classname="test.production_unit.test_production_unit.TestNumberOfProcessUsages" name="test_process_is_used" time="0.000" /><testcase classname="test.production_unit.test_production_unit.TestNumberOfProcessUsages" name="test_process_is_not_used" time="0.000" /><testcase classname="test.production_unit.test_production_unit.TestNewInvestmentInEuro" name="test_year_is_year_of_new_investment" time="0.000" /><testcase classname="test.production_unit.test_production_unit.TestNewInvestmentInEuro" name="test_year_is_not_year_of_new_investment" time="0.001"><failure message="AssertionError: assert &lt;MagicMock name='mock.investment_in_euro()' id='5194457952'&gt; == 0">self = &lt;test.production_unit.test_production_unit.TestNewInvestmentInEuro object at 0x1352687d0&gt;
+sut = &lt;production_unit.production_unit.ProductionUnit object at 0x135850590&gt;
+
+    def test_year_is_not_year_of_new_investment(self, sut):
+        sut.previous_process.year_of_new_investment = MagicMock(return_value=2022)
+        investment = sut.new_investment_in_euro(2020)
+&gt;       assert investment == 0
+E       AssertionError: assert &lt;MagicMock name='mock.investment_in_euro()' id='5194457952'&gt; == 0
+
+test/production_unit/test_production_unit.py:146: AssertionError</failure></testcase><testcase classname="test.production_unit.test_production_unit.TestCheckEnergyAvailability" name="test_energy_is_available" time="0.001" /><testcase classname="test.production_unit.test_production_unit.TestCheckEnergyAvailability" name="test_energy_is_not_available" time="0.001" /><testcase classname="test.production_unit.test_production_unit" name="test_check_h2_use" time="0.001"><failure message="assert False is True">sut = &lt;production_unit.production_unit.ProductionUnit object at 0x135b088c0&gt;
+
+    def test_check_h2_use(sut):
+        process = MagicMock()  # Mock the process object
+        energy_demand = MagicMock()  # Mock an energy_demand object
+        energy_carrier = MagicMock(return_value=15)
+        process.energy_demands = [energy_demand]
+        energy_demand.energy_carrier = energy_carrier
+        result = sut.check_h2_use(process)
+&gt;       assert result is True
+E       assert False is True
+
+test/production_unit/test_production_unit.py:195: AssertionError</failure></testcase><testcase classname="test.production_unit.test_production_unit" name="test_check_h2_distance" time="0.000"><failure message="TypeError: ProductionUnit.check_h2_distance() missing 1 required positional argument: 'distance_to_closest_h2_pipeline'">sut = &lt;production_unit.production_unit.ProductionUnit object at 0x135b1c710&gt;
+
+    def test_check_h2_distance(sut):
+        distance_to_closest_h2_pipeline = 20
+&gt;       result = sut.check_h2_distance(distance_to_closest_h2_pipeline)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: ProductionUnit.check_h2_distance() missing 1 required positional argument: 'distance_to_closest_h2_pipeline'
+
+test/production_unit/test_production_unit.py:200: TypeError</failure></testcase><testcase classname="test.production_unit.test_production_unit" name="test_accept" time="0.001" /><testcase classname="test.production_unit.test_production_unit_factory" name="test_create_production_units" time="0.001" /><testcase classname="test.production_unit.test_production_unit_factory" name="test_create_production_unit" time="0.001" /><testcase classname="test.region.test_region" name="test_co2_cost_in_euro_per_ton_c02" time="0.000" /><testcase classname="test.region.test_region" name="test_process_year" time="0.000" /><testcase classname="test.region.test_region" name="test_site_df" time="0.001" /><testcase classname="test.region.test_region" name="test_accept" time="0.001" /><testcase classname="test.region.test_region" name="test_get_process_ids_for_site" time="0.000" /><testcase classname="test.region.test_region_factory" name="test_create_regions" time="0.000" /><testcase classname="test.region.test_region_factory" name="test_create_region" time="0.000" /><testcase classname="test.simulation.test_simulation" name="test_run" time="0.000"><failure message="TypeError: 'Mock' object is not iterable">sut = &lt;simulation.simulation.Simulation object at 0x135b79e80&gt;
+
+    def test_run(sut):
+&gt;       sut.run()
+
+test/simulation/test_simulation.py:26: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;simulation.simulation.Simulation object at 0x135b79e80&gt;
+
+    def run(self):
+        for year in self._time_span:
+&gt;           for region in self.regions.values():
+                          ^^^^^^^^^^^^^^^^^^^^^
+E           TypeError: 'Mock' object is not iterable
+
+src/simulation/simulation.py:15: TypeError</failure></testcase><testcase classname="test.simulation.test_simulation" name="test_process_year" time="0.000"><failure message="AttributeError: 'Simulation' object has no attribute '_process_year'">sut = &lt;simulation.simulation.Simulation object at 0x1359ec980&gt;
+
+    def test_process_year(sut):
+&gt;       sut._process_year(2015)
+        ^^^^^^^^^^^^^^^^^
+E       AttributeError: 'Simulation' object has no attribute '_process_year'
+
+test/simulation/test_simulation.py:32: AttributeError</failure></testcase><testcase classname="test.simulation.test_simulation_mode" name="test_simulation_mode" time="0.000" /><testcase classname="test.test_data_interface" name="test_co2_cost_in_euro_per_ton_co2" time="0.041" /><testcase classname="test.test_data_interface" name="test__read_energy_carrier_data" time="0.001" /><testcase classname="test.test_data_interface" name="test__read_site_data" time="0.002" /><testcase classname="test.test_data_interface" name="test__get_site_ids" time="0.002" /><testcase classname="test.test_data_interface.TestReadProductionUnitMappingAndDeleteUnusedSites" name="test_without_product_filter" time="0.001" /><testcase classname="test.test_data_interface.TestReadProductionUnitMappingAndDeleteUnusedSites" name="test_with_product_filter" time="0.002" /><testcase classname="test.test_data_interface.TestReadProductProcessMapping" name="test__without_product_filter" time="0.002"><failure message="KeyError: 1">self = Index(['id_product', 'id_process'], dtype='object'), key = 1
+
+    def get_loc(self, key):
+        """
+        Get integer location, slice or boolean mask for requested label.
+    
+        Parameters
+        ----------
+        key : label
+    
+        Returns
+        -------
+        int if unique index, slice if monotonic index, else mask
+    
+        Examples
+        --------
+        &gt;&gt;&gt; unique_index = pd.Index(list('abc'))
+        &gt;&gt;&gt; unique_index.get_loc('b')
+        1
+    
+        &gt;&gt;&gt; monotonic_index = pd.Index(list('abbc'))
+        &gt;&gt;&gt; monotonic_index.get_loc('b')
+        slice(1, 3, None)
+    
+        &gt;&gt;&gt; non_monotonic_index = pd.Index(list('abcb'))
+        &gt;&gt;&gt; non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        casted_key = self._maybe_cast_indexer(key)
+        try:
+&gt;           return self._engine.get_loc(casted_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/opt/anaconda3/envs/forecast-sites/lib/python3.12/site-packages/pandas/core/indexes/base.py:3812: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pandas/_libs/index.pyx:167: in pandas._libs.index.IndexEngine.get_loc
+    ???
+pandas/_libs/index.pyx:196: in pandas._libs.index.IndexEngine.get_loc
+    ???
+pandas/_libs/hashtable_class_helper.pxi:7088: in pandas._libs.hashtable.PyObjectHashTable.get_item
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+&gt;   ???
+E   KeyError: 1
+
+pandas/_libs/hashtable_class_helper.pxi:7096: KeyError
+
+The above exception was the direct cause of the following exception:
+
+self = &lt;test.test_data_interface.TestReadProductProcessMapping object at 0x135292810&gt;, sut = &lt;data_interface.DataInterface object at 0x135e90410&gt;
+
+    def test__without_product_filter(self, sut):
+        df_mock = pd.DataFrame({'id_product': [1], 'id_process': [10]})
+        with patch('utils.collection_utils.join_with_comma'), patch('pandas.read_sql_query', return_value=df_mock):
+            result = sut._read_product_process_mapping(connection='mocked_connection', id_product_filter=[])
+&gt;           assert result[1].equals(df_mock)
+                   ^^^^^^^^^
+
+test/test_data_interface.py:98: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+/opt/anaconda3/envs/forecast-sites/lib/python3.12/site-packages/pandas/core/frame.py:4107: in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = Index(['id_product', 'id_process'], dtype='object'), key = 1
+
+    def get_loc(self, key):
+        """
+        Get integer location, slice or boolean mask for requested label.
+    
+        Parameters
+        ----------
+        key : label
+    
+        Returns
+        -------
+        int if unique index, slice if monotonic index, else mask
+    
+        Examples
+        --------
+        &gt;&gt;&gt; unique_index = pd.Index(list('abc'))
+        &gt;&gt;&gt; unique_index.get_loc('b')
+        1
+    
+        &gt;&gt;&gt; monotonic_index = pd.Index(list('abbc'))
+        &gt;&gt;&gt; monotonic_index.get_loc('b')
+        slice(1, 3, None)
+    
+        &gt;&gt;&gt; non_monotonic_index = pd.Index(list('abcb'))
+        &gt;&gt;&gt; non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        casted_key = self._maybe_cast_indexer(key)
+        try:
+            return self._engine.get_loc(casted_key)
+        except KeyError as err:
+            if isinstance(casted_key, slice) or (
+                isinstance(casted_key, abc.Iterable)
+                and any(isinstance(x, slice) for x in casted_key)
+            ):
+                raise InvalidIndexError(key)
+&gt;           raise KeyError(key) from err
+E           KeyError: 1
+
+/opt/anaconda3/envs/forecast-sites/lib/python3.12/site-packages/pandas/core/indexes/base.py:3819: KeyError</failure></testcase><testcase classname="test.test_data_interface.TestReadProductProcessMapping" name="test__with_product_filter" time="0.002" /><testcase classname="test.test_data_interface.TestReadProcessEnergyCarrierMapping" name="test__without_product_filter" time="0.002"><failure message="KeyError: 1">self = Index(['id_product', 'id_process', 'id_energy_carrier', 'fuel_share'], dtype='object'), key = 1
+
+    def get_loc(self, key):
+        """
+        Get integer location, slice or boolean mask for requested label.
+    
+        Parameters
+        ----------
+        key : label
+    
+        Returns
+        -------
+        int if unique index, slice if monotonic index, else mask
+    
+        Examples
+        --------
+        &gt;&gt;&gt; unique_index = pd.Index(list('abc'))
+        &gt;&gt;&gt; unique_index.get_loc('b')
+        1
+    
+        &gt;&gt;&gt; monotonic_index = pd.Index(list('abbc'))
+        &gt;&gt;&gt; monotonic_index.get_loc('b')
+        slice(1, 3, None)
+    
+        &gt;&gt;&gt; non_monotonic_index = pd.Index(list('abcb'))
+        &gt;&gt;&gt; non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        casted_key = self._maybe_cast_indexer(key)
+        try:
+&gt;           return self._engine.get_loc(casted_key)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+/opt/anaconda3/envs/forecast-sites/lib/python3.12/site-packages/pandas/core/indexes/base.py:3812: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+pandas/_libs/index.pyx:167: in pandas._libs.index.IndexEngine.get_loc
+    ???
+pandas/_libs/index.pyx:196: in pandas._libs.index.IndexEngine.get_loc
+    ???
+pandas/_libs/hashtable_class_helper.pxi:7088: in pandas._libs.hashtable.PyObjectHashTable.get_item
+    ???
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+&gt;   ???
+E   KeyError: 1
+
+pandas/_libs/hashtable_class_helper.pxi:7096: KeyError
+
+The above exception was the direct cause of the following exception:
+
+self = &lt;test.test_data_interface.TestReadProcessEnergyCarrierMapping object at 0x135292840&gt;, sut = &lt;data_interface.DataInterface object at 0x135b72e40&gt;
+
+    def test__without_product_filter(self, sut):
+        df_mock = pd.DataFrame({'id_product': [1], 'id_process': [10], 'id_energy_carrier': [10], 'fuel_share': [0.5]})
+        with patch('utils.collection_utils.join_with_comma'), patch('pandas.read_sql_query', return_value=df_mock):
+            result = sut._read_process_energy_carrier_mapping(connection='mocked_connection', id_product_filter=[])
+&gt;           assert result[1].equals(df_mock)
+                   ^^^^^^^^^
+
+test/test_data_interface.py:114: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+/opt/anaconda3/envs/forecast-sites/lib/python3.12/site-packages/pandas/core/frame.py:4107: in __getitem__
+    indexer = self.columns.get_loc(key)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = Index(['id_product', 'id_process', 'id_energy_carrier', 'fuel_share'], dtype='object'), key = 1
+
+    def get_loc(self, key):
+        """
+        Get integer location, slice or boolean mask for requested label.
+    
+        Parameters
+        ----------
+        key : label
+    
+        Returns
+        -------
+        int if unique index, slice if monotonic index, else mask
+    
+        Examples
+        --------
+        &gt;&gt;&gt; unique_index = pd.Index(list('abc'))
+        &gt;&gt;&gt; unique_index.get_loc('b')
+        1
+    
+        &gt;&gt;&gt; monotonic_index = pd.Index(list('abbc'))
+        &gt;&gt;&gt; monotonic_index.get_loc('b')
+        slice(1, 3, None)
+    
+        &gt;&gt;&gt; non_monotonic_index = pd.Index(list('abcb'))
+        &gt;&gt;&gt; non_monotonic_index.get_loc('b')
+        array([False,  True, False,  True])
+        """
+        casted_key = self._maybe_cast_indexer(key)
+        try:
+            return self._engine.get_loc(casted_key)
+        except KeyError as err:
+            if isinstance(casted_key, slice) or (
+                isinstance(casted_key, abc.Iterable)
+                and any(isinstance(x, slice) for x in casted_key)
+            ):
+                raise InvalidIndexError(key)
+&gt;           raise KeyError(key) from err
+E           KeyError: 1
+
+/opt/anaconda3/envs/forecast-sites/lib/python3.12/site-packages/pandas/core/indexes/base.py:3819: KeyError</failure></testcase><testcase classname="test.test_data_interface.TestReadProcessEnergyCarrierMapping" name="test__with_product_filter" time="0.002" /><testcase classname="test.test_data_interface" name="test__read_energy_carrier_cost_mapping" time="0.002" /><testcase classname="test.test_data_interface" name="test__read_energy_carrier_emission_mapping" time="0.001" /><testcase classname="test.test_entity" name="test_entity" time="0.000" /><testcase classname="test.test_main" name="test_main" time="0.000" /><testcase classname="test.test_main.TestSimulate" name="test_without_mesa" time="0.034" /><testcase classname="test.test_main.TestSimulate" name="test_with_mesa" time="0.033" /><testcase classname="test.utils.test_collection_utils.TestMinObject" name="test_normal_usage" time="0.000" /><testcase classname="test.utils.test_collection_utils.TestMinObject" name="test_empty_collection" time="0.000" /><testcase classname="test.utils.test_collection_utils" name="test_object_sum" time="0.000" /><testcase classname="test.utils.test_collection_utils" name="test_object_subtract" time="0.000"><failure message="assert -22 == -18">def test_object_subtract():
+        collection = [
+            {'foo': 1, 'baa': 2},
+            {'foo': 10, 'baa': 20},
+        ]
+        result = collection_utils.object_subtract(collection, lambda obj: obj['baa'])
+&gt;       assert result == -18
+E       assert -22 == -18
+
+test/utils/test_collection_utils.py:36: AssertionError</failure></testcase><testcase classname="test.utils.test_collection_utils" name="test_join_with_comma" time="0.000" /><testcase classname="test.utils.test_file_utils" name="test_create_folder_if_not_exists" time="0.002"><failure message="AssertionError: assert False&#10; +  where False = &lt;MagicMock name='isdir' id='5192919248'&gt;.called">def test_create_folder_if_not_exists():
+        with patch('os.path.isdir', return_value=False) as patched_isdir, patch('os.mkdir') as patched_mkdir:
+            file_utils.create_folder_if_not_exists('folder_path')
+&gt;           assert patched_isdir.called
+E           AssertionError: assert False
+E            +  where False = &lt;MagicMock name='isdir' id='5192919248'&gt;.called
+
+test/utils/test_file_utils.py:13: AssertionError</failure></testcase><testcase classname="test.utils.test_file_utils" name="test_delete_file_if_exists" time="0.000"><failure message="AssertionError: assert False&#10; +  where False = &lt;MagicMock name='isfile' id='5192925056'&gt;.called">def test_delete_file_if_exists():
+        with patch('os.path.isfile', return_value=True) as patched_isfile, patch('os.remove') as patched_remove:
+            file_utils.delete_file_if_exists('file_path')
+&gt;           assert patched_isfile.called
+E           AssertionError: assert False
+E            +  where False = &lt;MagicMock name='isfile' id='5192925056'&gt;.called
+
+test/utils/test_file_utils.py:20: AssertionError</failure></testcase><testcase classname="test.utils.test_time_utils" name="test_create_time_span" time="0.000"><failure message="TypeError: create_time_span() missing 1 required positional argument: 'year_increment'">def test_create_time_span():
+&gt;       time_span = create_time_span(2015, 2017)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       TypeError: create_time_span() missing 1 required positional argument: 'year_increment'
+
+test/utils/test_time_utils.py:16: TypeError</failure></testcase><testcase classname="test.utils.test_time_utils" name="test_create_time_span_increment" time="0.000" /><testcase classname="test.utils.test_time_utils" name="test_to_year_strings" time="0.000" /><testcase classname="test.utils.test_time_utils" name="test_interpolate" time="0.000"><failure message="assert False&#10; +  where False = isclose(3.928571428571429, (50 / 7))">def test_interpolate():
+        value_2015 = 2
+        value_2050 = 20
+        year = 2025
+        result = interpolate(year, value_2015, value_2050)
+&gt;       assert isclose(result, 50 / 7)
+E       assert False
+E        +  where False = isclose(3.928571428571429, (50 / 7))
+
+test/utils/test_time_utils.py:36: AssertionError</failure></testcase><testcase classname="test.utils.test_time_utils" name="test_interpolate_cost" time="0.000" /><testcase classname="test.utils.test_time_utils" name="test_exponential_decrease" time="0.000"><failure message="assert False&#10; +  where False = isclose(5.0, 29.3558735)">def test_exponential_decrease():
+        value_2015 = 2
+        value_2030 = 10
+        value_2050 = 20
+        year = 2025
+        result = interpolate_cost(year, value_2015, value_2030, value_2050)
+&gt;       assert isclose(result, 29.3558735)
+E       assert False
+E        +  where False = isclose(5.0, 29.3558735)
+
+test/utils/test_time_utils.py:54: AssertionError</failure></testcase><testcase classname="test.visitor.test_shape_file_visitor" name="test_visit_region" time="0.000"><failure message="mock.mock.InvalidSpecError: Cannot spec a Mock object. [object=&lt;MagicMock id='5193176736'&gt;]">sut = &lt;visitor.shape_file_visitor.ShapeFileVisitor object at 0x135e867b0&gt;
+
+    def test_visit_region(sut):
+        sut._export_sites_to_shape_file = MagicMock
+&gt;       sut.visit_region(region=MagicMock(), year=2020)
+
+test/visitor/test_shape_file_visitor.py:20: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/visitor/shape_file_visitor.py:17: in visit_region
+    self._export_sites_to_shape_file(region, year)
+/opt/anaconda3/envs/forecast-sites/lib/python3.12/site-packages/mock/mock.py:2217: in __init__
+    _safe_super(MagicMixin, self).__init__(*args, **kw)
+/opt/anaconda3/envs/forecast-sites/lib/python3.12/site-packages/mock/mock.py:1172: in __init__
+    _safe_super(CallableMixin, self).__init__(
+/opt/anaconda3/envs/forecast-sites/lib/python3.12/site-packages/mock/mock.py:493: in __init__
+    self._mock_add_spec(spec, spec_set, _spec_as_instance, _eat_self)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;[AttributeError('_mock_methods') raised in repr()] MagicMock object at 0x1358af1d0&gt;, spec = &lt;MagicMock id='5193176736'&gt;, spec_set = None
+_spec_as_instance = False, _eat_self = False
+
+    def _mock_add_spec(self, spec, spec_set, _spec_as_instance=False,
+                       _eat_self=False):
+        if _is_instance_mock(spec):
+&gt;           raise InvalidSpecError(f'Cannot spec a Mock object. [object={spec!r}]')
+E           mock.mock.InvalidSpecError: Cannot spec a Mock object. [object=&lt;MagicMock id='5193176736'&gt;]
+
+/opt/anaconda3/envs/forecast-sites/lib/python3.12/site-packages/mock/mock.py:544: InvalidSpecError</failure></testcase><testcase classname="test.visitor.test_shape_file_visitor" name="test_visit_site" time="0.000" /><testcase classname="test.visitor.test_shape_file_visitor" name="test_production_unit" time="0.000" /><testcase classname="test.visitor.test_shape_file_visitor" name="test_visit_product" time="0.000" /><testcase classname="test.visitor.test_shape_file_visitor" name="test_visit_process" time="0.000" /><testcase classname="test.visitor.test_shape_file_visitor" name="test_finalize" time="0.000" /><testcase classname="test.visitor.test_shape_file_visitor.TestExportSitesToShapeFile" name="test_empty_data_frame" time="0.004" /><testcase classname="test.visitor.test_shape_file_visitor.TestExportSitesToShapeFile" name="test_non_empty_data_frame" time="0.001" /><testcase classname="test.visitor.test_shape_file_visitor" name="test__prepare_shape_file_path" time="0.000" /><testcase classname="test.visitor.test_shape_file_visitor" name="test__check_export_column_names" time="0.001"><failure message="AssertionError: assert False&#10; +  where False = &lt;MagicMock name='print' id='5204563712'&gt;.called">sut = &lt;visitor.shape_file_visitor.ShapeFileVisitor object at 0x1363746e0&gt;
+
+    def test__check_export_column_names(sut):
+        data_frame = pd.DataFrame({'a_long_column_name': [1]})
+        with patch('builtins.print') as patched_print:
+            sut._check_export_column_names(data_frame)
+&gt;           assert patched_print.called
+E           AssertionError: assert False
+E            +  where False = &lt;MagicMock name='print' id='5204563712'&gt;.called
+
+test/visitor/test_shape_file_visitor.py:111: AssertionError</failure></testcase><testcase classname="test.visitor.test_tabular_result_visitor" name="test_visit_region" time="0.033" /><testcase classname="test.visitor.test_tabular_result_visitor" name="test_visit_site" time="0.033" /><testcase classname="test.visitor.test_tabular_result_visitor" name="test_production_unit" time="0.033" /><testcase classname="test.visitor.test_tabular_result_visitor" name="test_visit_product" time="0.032"><failure message="AttributeError: 'NoneType' object has no attribute 'co2_cost_in_euro_per_ton_c02'">sut = &lt;visitor.tabular_result_visitor.TabularResultVisitor object at 0x1362c95e0&gt;
+
+    def test_visit_product(sut):
+        product_mock = MagicMock()
+        product_mock.id = 'mocked_id'
+&gt;       sut.visit_product(product_mock, year=2020)
+
+test/visitor/test_tabular_result_visitor.py:40: 
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+src/visitor/tabular_result_visitor.py:121: in visit_product
+    self._handle_process_specific_variables(product, year)
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+self = &lt;visitor.tabular_result_visitor.TabularResultVisitor object at 0x1362c95e0&gt;, product = &lt;MagicMock id='5193180768'&gt;, year = 2020
+
+    def _handle_process_specific_variables(self, product, year):
+        # Process-specific variables for result comparison
+        virtual_production_cost_time_series_per_process = product.virtual_production_cost_per_process_for_comparison(
+            year
+        )
+        virtual_process_emission_costs_per_process = product.virtual_process_emission_cost_per_process_for_comparison(
+            self._production_in_tons,
+&gt;           self._region.co2_cost_in_euro_per_ton_c02(year),
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+E       AttributeError: 'NoneType' object has no attribute 'co2_cost_in_euro_per_ton_c02'
+
+src/visitor/tabular_result_visitor.py:132: AttributeError</failure></testcase><testcase classname="test.visitor.test_tabular_result_visitor" name="test_visit_process" time="0.035" /><testcase classname="test.visitor.test_tabular_result_visitor" name="test_finalize" time="0.033" /><testcase classname="test.visitor.test_tabular_result_visitor" name="test__save" time="0.034" /><testcase classname="test.visitor.test_tabular_result_visitor" name="test__create_empty_table_for_df" time="0.000" /><testcase classname="test.visitor.test_tabular_result_visitor" name="test__add_entry" time="0.033" /><testcase classname="test.visitor.test_tabular_result_visitor" name="test__add_energy_carrier_entry" time="0.032" /><testcase classname="test.visitor.test_tabular_result_visitor.TestAddEntryAt" name="test_existing_index" time="0.032"><failure message="TypeError: tuple expected at most 1 argument, got 2">self = &lt;test.visitor.test_tabular_result_visitor.TestAddEntryAt object at 0x1357e9a30&gt;
+sut = &lt;visitor.tabular_result_visitor.TabularResultVisitor object at 0x1362d2fc0&gt;
+
+    def test_existing_index(self, sut):
+        df = pd.DataFrame({'id_region': [1], 'id_site': [10]})
+        df = df.set_index(['id_region', 'id_site'])
+&gt;       keys = tuple(1, 10)
+               ^^^^^^^^^^^^
+E       TypeError: tuple expected at most 1 argument, got 2
+
+test/visitor/test_tabular_result_visitor.py:122: TypeError</failure></testcase><testcase classname="test.visitor.test_tabular_result_visitor.TestAddEntryAt" name="test_not_existing_index" time="0.033"><failure message="TypeError: tuple expected at most 1 argument, got 2">self = &lt;test.visitor.test_tabular_result_visitor.TestAddEntryAt object at 0x1357e9c10&gt;
+sut = &lt;visitor.tabular_result_visitor.TabularResultVisitor object at 0x13631cb90&gt;
+
+    def test_not_existing_index(self, sut):
+        df = pd.DataFrame({'id_region': [1], 'id_site': [10]})
+        df = df.set_index(['id_region', 'id_site'])
+&gt;       keys = tuple(2, 20)
+               ^^^^^^^^^^^^
+E       TypeError: tuple expected at most 1 argument, got 2
+
+test/visitor/test_tabular_result_visitor.py:134: TypeError</failure></testcase><testcase classname="test.visitor.test_tabular_result_visitor" name="test__initialize_production_df" time="0.034" /><testcase classname="test.visitor.test_tabular_result_visitor" name="test__initialize_emission_df" time="0.032"><failure message="AttributeError: 'TabularResultVisitor' object has no attribute '_initialize_process_emission_df'">sut = &lt;visitor.tabular_result_visitor.TabularResultVisitor object at 0x135f91bb0&gt;
+
+    def test__initialize_emission_df(sut):
+&gt;       result = sut._initialize_process_emission_df()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'TabularResultVisitor' object has no attribute '_initialize_process_emission_df'
+
+test/visitor/test_tabular_result_visitor.py:149: AttributeError</failure></testcase><testcase classname="test.visitor.test_tabular_result_visitor" name="test__initialize_final_energy_demand_df" time="0.033" /><testcase classname="test.visitor.test_tabular_result_visitor" name="test__initialize_production_cost_df" time="0.119"><failure message="AssertionError: assert FrozenList(['...'id_process']) == ['id_scenario...process', ...]&#10;  &#10;  Right contains one more item: #x1B[0m#x1B[33m'#x1B[39;49;00m#x1B[33mid_energy_carrier#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">sut = &lt;visitor.tabular_result_visitor.TabularResultVisitor object at 0x135ff3050&gt;
+
+    def test__initialize_production_cost_df(sut):
+        result = sut._empty_base_table()
+&gt;       assert result.index.names == [*sut._base_column_names, 'id_energy_carrier']
+E       AssertionError: assert FrozenList(['...'id_process']) == ['id_scenario...process', ...]
+E         
+E         Right contains one more item: #x1B[0m#x1B[33m'#x1B[39;49;00m#x1B[33mid_energy_carrier#x1B[39;49;00m#x1B[33m'#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+test/visitor/test_tabular_result_visitor.py:160: AssertionError</failure></testcase><testcase classname="test.visitor.test_tabular_result_visitor" name="test_initialize_production_cost_per_ton_df" time="0.032"><failure message="AttributeError: 'TabularResultVisitor' object has no attribute '_initialize_production_cost_per_ton_df'. Did you mean: '_production_cost_per_ton_df'?">sut = &lt;visitor.tabular_result_visitor.TabularResultVisitor object at 0x135dd80e0&gt;
+
+    def test_initialize_production_cost_per_ton_df(sut):
+&gt;       result = sut._initialize_production_cost_per_ton_df()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'TabularResultVisitor' object has no attribute '_initialize_production_cost_per_ton_df'. Did you mean: '_production_cost_per_ton_df'?
+
+test/visitor/test_tabular_result_visitor.py:164: AttributeError</failure></testcase><testcase classname="test.visitor.test_tabular_result_visitor" name="test__initialize_energy_cost_df" time="0.032"><failure message="AttributeError: 'TabularResultVisitor' object has no attribute '_initialize_energy_cost_df'">sut = &lt;visitor.tabular_result_visitor.TabularResultVisitor object at 0x135dcd5e0&gt;
+
+    def test__initialize_energy_cost_df(sut):
+&gt;       result = sut._initialize_energy_cost_df()
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       AttributeError: 'TabularResultVisitor' object has no attribute '_initialize_energy_cost_df'
+
+test/visitor/test_tabular_result_visitor.py:169: AttributeError</failure></testcase><testcase classname="test.visitor.test_tabular_result_visitor" name="test__base_row" time="0.032"><failure message="assert [None, 1, 10,..., 1000, 10000] == [1, 10, 100, 1000, 10000]&#10;  &#10;  At index 0 diff: #x1B[0m#x1B[94mNone#x1B[39;49;00m#x1B[90m#x1B[39;49;00m != #x1B[0m#x1B[94m1#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Left contains one more item: #x1B[0m#x1B[94m10000#x1B[39;49;00m#x1B[90m#x1B[39;49;00m&#10;  Use -v to get more diff">sut = &lt;visitor.tabular_result_visitor.TabularResultVisitor object at 0x135db79e0&gt;
+
+    def test__base_row(sut):
+        sut._region = MagicMock()
+        sut._region.id = 1
+        sut._id_site = 10
+        sut._id_production_unit = 100
+        sut._id_product = 1000
+        sut._id_process = 10000
+        result = sut._base_row()
+&gt;       assert result == [1, 10, 100, 1000, 10000]
+E       assert [None, 1, 10,..., 1000, 10000] == [1, 10, 100, 1000, 10000]
+E         
+E         At index 0 diff: #x1B[0m#x1B[94mNone#x1B[39;49;00m#x1B[90m#x1B[39;49;00m != #x1B[0m#x1B[94m1#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Left contains one more item: #x1B[0m#x1B[94m10000#x1B[39;49;00m#x1B[90m#x1B[39;49;00m
+E         Use -v to get more diff
+
+test/visitor/test_tabular_result_visitor.py:181: AssertionError</failure></testcase><testcase classname="test.visitor.test_visitor" name="test_visit_region" time="0.000" /><testcase classname="test.visitor.test_visitor" name="test_visit_site" time="0.000" /><testcase classname="test.visitor.test_visitor" name="test_production_unit" time="0.000" /><testcase classname="test.visitor.test_visitor" name="test_visit_product" time="0.000" /><testcase classname="test.visitor.test_visitor" name="test_visit_process" time="0.000" /><testcase classname="test.visitor.test_visitor" name="test_finalize" time="0.000" /></testsuite></testsuites>
