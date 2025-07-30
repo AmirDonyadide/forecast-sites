@@ -1,12 +1,9 @@
 # © 2024 Fraunhofer-Gesellschaft e.V., München
 # SPDX-License-Identifier: AGPL-3.0-or-later
-
 # This file is the central configuration file for a python project.
 # It specifies the required python dependencies/packages.
 # It also contains settings for tools like pytest.
-#
 # In order to install all required packages use the command
-#
 # pip install .[dev]
 
 # -------------------------------
